@@ -36,7 +36,7 @@ Showcases a setup to create an effect of Toon styled outlines, there are two app
 ![FOV][OutlineMain]
 
 - Can be found at `_CompletedDemos/ToonOutlinePostprocessCompleted/ToonOutlinePost.unity`
-- Uses the `Blit` custom feature(`Blit.cs` and `BlitPass.cs`) that is provided with this project for the `OutlinePostEffect` custom renderer
+- Uses the `Blit` custom feature(`DrawFullscreenFeature.cs` and `DrawFullscreenPass.cs`) that is provided with this project for the `OutlinePostEffect` custom renderer
 - Custom Sobel Filter shader with Posterize option
 - Uses the `Render Objects (Experimental)` feature that is provided with the Universal Render Pipeline Package for the `OutlineHullEffect` custom renderer
 - Custom Toon Outline shader based of Unity Basic Toon shader
